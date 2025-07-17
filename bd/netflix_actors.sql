@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.42, for macos15 (arm64)
 --
--- Host: localhost    Database: netflix
+-- Host: 127.0.0.1    Database: netflix
 -- ------------------------------------------------------
 -- Server version	9.3.0
 
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-15 20:47:04
+-- Dump completed on 2025-07-17 21:25:39

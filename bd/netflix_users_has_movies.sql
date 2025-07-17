@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.42, for macos15 (arm64)
 --
 -- Host: 127.0.0.1    Database: netflix
 -- ------------------------------------------------------
--- Server version	8.0.41
+-- Server version	9.3.0
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,7 +40,7 @@ CREATE TABLE `users_has_movies` (
 
 LOCK TABLES `users_has_movies` WRITE;
 /*!40000 ALTER TABLE `users_has_movies` DISABLE KEYS */;
-INSERT INTO `users_has_movies` VALUES (1,1,NULL),(1,2,NULL),(2,2,NULL);
+INSERT INTO `users_has_movies` VALUES (1,1,'5'),(1,2,'9'),(2,2,'7');
 /*!40000 ALTER TABLE `users_has_movies` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-15 21:35:18
+-- Dump completed on 2025-07-17 21:25:39
